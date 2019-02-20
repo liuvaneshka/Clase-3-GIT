@@ -1,0 +1,5 @@
+master : lo que esta en produccion. ya esta testeado y no tiene bugs
+
+dev : es una copia de master y algo mas. ese algo mas probablemente sea un branch mergeado.
+
+css - js - db - be  : estos son branches especificos por area de laburo
