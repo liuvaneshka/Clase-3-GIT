@@ -3,3 +3,10 @@ master : lo que esta en produccion. ya esta testeado y no tiene bugs
 dev : es una copia de master y algo mas. ese algo mas probablemente sea un branch mergeado.
 
 css - js - db - be  : estos son branches especificos por area de laburo
+
+STASH: LUGAR DE ALMACENAMIENTO EN GIT TEMPORAL PARA MODIFICACIONES QUE NO FUERON COMMITEADAS TODAVIA. suele ser util
+cuando quiero cambiar de branch pero tengo modificaciones sin commitear (no puedo hacer checkout si no tengo el status limpio)
+
+git stash : cera un nuevo entry en la lista del stash
+git stash list : muestra el listado de entries
+git stash apply [<stash_id>] : reaplica el ultimo entry del listado o alternativamente podemos pasarle el ID de un stash para aplicar
