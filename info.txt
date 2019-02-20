@@ -20,3 +20,9 @@ git stash list : muestra el listado de entries
 git stash apply [<stash_id>] : reaplica el ultimo entry del listado o alternativamente podemos pasarle el ID de un stash para aplicar
 git stash pop : reaplica el ultimo entry del listado o alternativamente podemos pasarle el ID de un stash para aplicar y lo borra del stash
 git stash clear: borra todo lo que hay en el stash
+
+tags: tipo de objeto de la base de datos de git (anotados). tecnicamente hay dos tipos de tags:
+1. anotados : generan un objeto en la DB de git y permiten dejar comentarios 
+2. no anotados : no generan espacio, osea que son mas ligeros pero no permiten comentarios
+
+git tag [-a] <nombre_tag> [-m <subject>]: genera un tag. si se usa el flag -a, el tag es anotado.
