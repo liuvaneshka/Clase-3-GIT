@@ -10,3 +10,5 @@ cuando quiero cambiar de branch pero tengo modificaciones sin commitear (no pued
 git stash : cera un nuevo entry en la lista del stash
 git stash list : muestra el listado de entries
 git stash apply [<stash_id>] : reaplica el ultimo entry del listado o alternativamente podemos pasarle el ID de un stash para aplicar
+git stash pop : reaplica el ultimo entry del listado o alternativamente podemos pasarle el ID de un stash para aplicar y lo borra del stash
+git stash clear: borra todo lo que hay en el stash
