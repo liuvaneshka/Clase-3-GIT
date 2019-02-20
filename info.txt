@@ -3,3 +3,12 @@ master : lo que esta en produccion. ya esta testeado y no tiene bugs
 dev : es una copia de master y algo mas. ese algo mas probablemente sea un branch mergeado.
 
 css - js - db - be  : estos son branches especificos por area de laburo
+
+branches por funcionalidades : salen desde cada branch de area
+
+GITFLOW: es un framework de organizacion de branches 
+
+feature: nuevas funcionalidades. Sale del branch de dev, nunca de master
+bugfix: es un bug de desarrollo . sale de dev 
+hotfix: es un bug de produccion. sale de master y se mergea a master y dev
+release:es una copia segura de dev que sale de dev y mergea en master y dev y crea un tag
